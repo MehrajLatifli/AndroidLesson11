@@ -38,7 +38,7 @@ class DetailFragment : Fragment() {
         binding.pricetextView.text = "New price: $${product.newprice.toString()}"
         binding.oldpricetextView.text ="Old price: $${product.oldprice.toString()}"
         binding.discounttextView.text = "Discount price: ${product.discount.toString()}% Off"
-        binding.oldpricetextView.paintFlags =  binding.oldpricetextView.paintFlags or Paint.STRIKE_THRU_TEXT_FLAG
+
 
 
         setStarRating(product.raiting, binding.star1, binding.star2, binding.star3, binding.star4, binding.star5)
