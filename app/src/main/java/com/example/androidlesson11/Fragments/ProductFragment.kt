@@ -66,8 +66,8 @@ class ProductFragment : Fragment() {
 
 
     private fun populateItemList() {
-        itemList.add(Product(R.drawable.shoes_1,"Nike Air Max 270 React ENG",4.0,299.50,534.50,(DecimalFormat("#.##").format(299.50*100/534.50).toDouble())))
-        itemList.add(Product(R.drawable.shoes_2,"Nike Air Max 280 React ENG",3.0,199.40,434.35,(DecimalFormat("#.##").format(199.40*100/434.35).toDouble())))
+        itemList.add(Product(R.drawable.shoes_1,"Nike Air Max 270 React ENG",3.0,299.50,534.50,(DecimalFormat("#.##").format(299.50*100/534.50).toDouble())))
+        itemList.add(Product(R.drawable.shoes_2,"Nike Air Max 280 React ENG",4.0,199.40,434.35,(DecimalFormat("#.##").format(199.40*100/434.35).toDouble())))
         itemList.add(Product(R.drawable.shoes_3,"Nike Air Max 290 React ENG",4.0,259.30,404.30,(DecimalFormat("#.##").format(259.30*100/404.30).toDouble())))
         itemList.add(Product(R.drawable.shoes_4,"Nike Air Max 275 React ENG",5.0,229.50,524.10,(DecimalFormat("#.##").format(229.50*100/524.10).toDouble())))
         itemList.add(Product(R.drawable.shoes_5,"Nike Air Max 200  White Anthracite",4.0,299.50,504.50,(DecimalFormat("#.##").format(299.50*100/504.50).toDouble())))
