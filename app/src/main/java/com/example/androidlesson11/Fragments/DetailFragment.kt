@@ -35,9 +35,9 @@ class DetailFragment : Fragment() {
 
         binding.nametextView.text=product.productname?:""
         binding.productimageView.setImageResource(product.drawableimage?:0)
-        binding.pricetextView.text = "$${product.newprice.toString()}"
-        binding.oldpricetextView.text ="$${product.oldprice.toString()}"
-        binding.discounttextView.text = "${product.discount.toString()}% Off"
+        binding.pricetextView.text = "New price: $${product.newprice.toString()}"
+        binding.oldpricetextView.text ="Old price: $${product.oldprice.toString()}"
+        binding.discounttextView.text = "Discount price: ${product.discount.toString()}% Off"
         binding.oldpricetextView.paintFlags =  binding.oldpricetextView.paintFlags or Paint.STRIKE_THRU_TEXT_FLAG
 
 
