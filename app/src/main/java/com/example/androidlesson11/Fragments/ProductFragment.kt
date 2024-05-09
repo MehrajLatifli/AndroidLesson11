@@ -47,9 +47,11 @@ class ProductFragment : Fragment() {
             filterItemList(searchText)
         }
 
+        binding.sortimageview.animate().rotation(180f).start()
+
         binding.sortimageview.setOnClickListener {
 
-            binding.sortimageview.animate().rotation(0f).start()
+
             sortbyNewPrice()
         }
 
@@ -108,6 +110,8 @@ class ProductFragment : Fragment() {
         refreshui()
 
         sortOrder = (sortOrder + 1) % 2
+
+
         if (sortOrder == 0) {
 
 
